@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (https://github.com/eclipse-ee4j/metro-jax-ws). RI's version is Eclipse Metro/3.0.2 (RELEASE-3.0.2-4d220c5; 2021-08-02T05:18:16+0000) JAXWS-RI/3.0.2 JAXWS-API/3.0.1 JAXB-RI/3.0.2 JAXB-API/3.0.1 git-revision#4d220c5. --><xs:schema xmlns:tns="http://ejemplowebserviceintellijidea.samples.webservice.ufg.edu.sv/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ejemplowebserviceintellijidea.samples.webservice.ufg.edu.sv/">
+
+<xs:element name="test" type="tns:test"/>
+
+<xs:element name="testResponse" type="tns:testResponse"/>
+
+<xs:complexType name="test">
+<xs:sequence>
+<xs:element name="apodo" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="testResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
