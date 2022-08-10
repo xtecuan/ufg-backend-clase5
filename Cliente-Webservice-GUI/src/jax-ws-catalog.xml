@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/UFG/Java/netbeans-14-jdk8-user-settings/config/WebServices/WebServiceTestService/catalog/blitzthinkw2_8080/EjemploWebServiceIntelliJIDEA/WebServiceTestService.wsdl" uri="wsdl/WebServiceTestService.wsdl"/>
+    <system systemId="http://blitzthinkw2:8080/EjemploWebServiceIntelliJIDEA/WebServiceTestService?xsd=1" uri="wsdl/blitzthinkw2_8080/EjemploWebServiceIntelliJIDEA/WebServiceTestService.xsd_1.xsd"/>
+</catalog>
